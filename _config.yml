@@ -23,7 +23,7 @@ repository               : "julianafreire/julianafreire.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/juliana-photo.png"
+  avatar           : "/images/juliana-photo.png"
   name             : "Juliana Freire"
   pronouns         : # example: "she/her"
   bio              : "Institute Professor, Professor of Computer Science and Data Science"
