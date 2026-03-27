@@ -20,11 +20,11 @@ main:
 #  - title: "Teaching"
 #    url: /teaching/    
         
-  - title: "CV"
-    url: /files/vitae-short.pdf
+#  - title: "CV"
+#    url: /files/vitae-short.pdf
     
-  # - title: "CV"
-  #   url: /cv-json/
+# - title: "CV"
+#   url: /cv-json/
     
-  # - title: "Guide"
-  #    url: /markdown/
+# - title: "Guide"
+#    url: /markdown/
