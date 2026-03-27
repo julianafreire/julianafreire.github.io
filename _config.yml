@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Juliana Freire's web page"
+#title                    : "Juliana Freire's web page"
 title_separator          : "-"
 name                     : &name "Juliana Freire"
 description              : &description "Juliana Freire's web page"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,7 +23,7 @@ repository               : "julianafreire/julianafreire.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "juliana-photo.png"
+  avatar           : "/images/juliana-photo.png"
   name             : "Juliana Freire"
   pronouns         : # example: "she/her"
   bio              : "Institute Professor, Professor of Computer Science and Data Science"
@@ -200,7 +200,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: kramdown
+<markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
