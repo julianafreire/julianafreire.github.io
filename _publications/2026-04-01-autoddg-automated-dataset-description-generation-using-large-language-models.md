@@ -1,0 +1,14 @@
+---
+title: "AutoDDG: Automated Dataset Description Generation using Large Language Models"
+collection: "publications"
+generated_by: "scripts/generate_publications.py"
+permalink: "/publication/2026-04-01-autoddg-automated-dataset-description-generation-using-large-language-models"
+date: "2026-04-01"
+venue: "Proc. ACM Manag. Data"
+citation: "Haoxiang Zhang, Yurong Liu, A\\'ecio Santos, Wei-Lun (Allen) Hung, and Juliana Freire \"AutoDDG: Automated Dataset Description Generation using Large Language Models.\" Proc. ACM Manag. Data 2026"
+bibtex_key: "autoddg-sigmod2026"
+excerpt: "The proliferation of datasets across open data portals and enterprise data lakes presents an opportunity for deriving data-driven insights. Widely-used dataset search systems rely on keyword search over dataset metadata to support discovery. Therefore, when metadata is incomplete, missing, or inconsistent with dataset contents, findability is severely compromised. To address this limitation, we introduce AutoDDG, a framework that automatically generates textual descriptions of tabular data. By adopting a data-driven approach to summarize dataset contents and leveraging large language models (LLMs) to enrich summaries with semantic information and produce human-readable text, AutoDDG derives descriptions that are comprehensive, accurate, readable, and concise. A critical challenge in this problem is evaluating the effectiveness of description generation methods and assessing the quality of the generated descriptions. We propose a comprehensive evaluation methodology that combines retrieval, reference-based, and reference-free assessment, with human validation. Our experimental results using new benchmarks demonstrate that AutoDDG generates high-quality, accurate descriptions at scale, significantly improving dataset retrieval performance across diverse use cases. AutoDDG is available at https://github.com/VIDA-NYU/AutoDDG."
+paperurl: "https://doi.org/10.1145/3786626"
+---
+
+[View publication](https://doi.org/10.1145/3786626)

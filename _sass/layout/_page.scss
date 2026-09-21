@@ -55,6 +55,56 @@
     border-bottom: 1px solid var(--global-border-color);
   }
 
+  .publications-intro {
+    max-width: 52em;
+  }
+
+  .publication-links,
+  .publication-list {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em 1.25em;
+    margin-bottom: 2em;
+  }
+
+  .publication-list {
+    margin-top: 1.5em;
+  }
+
+  .publication-list__item {
+    margin: 0;
+    padding: 0 0 1.5em;
+    border-bottom: 1px solid var(--global-border-color);
+
+    & + & {
+      padding-top: 1.5em;
+    }
+
+    h3 {
+      margin: 0 0 0.35em;
+      font-size: $type-size-5;
+      line-height: 1.35;
+    }
+  }
+
+  .publication-list__citation,
+  .publication-list__links {
+    margin-bottom: 0;
+  }
+
+  .publication-list__links {
+    font-size: $type-size-6;
+
+    a + a {
+      margin-left: 1em;
+    }
+  }
+
   p, li, dl {
     font-size: 1em;
   }
