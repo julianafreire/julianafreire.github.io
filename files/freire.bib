@@ -1,0 +1,1254 @@
+
+@misc{zhang_autoddg_2025,
+	title = {{AutoDDG}: {Automated} {Dataset} {Description} {Generation} using {Large} {Language} {Models}},
+	copyright = {Creative Commons Attribution 4.0 International},
+	shorttitle = {{AutoDDG}},
+	url = {https://arxiv.org/abs/2502.01050},
+	doi = {10.48550/ARXIV.2502.01050},
+	abstract = {The proliferation of datasets across open data portals and enterprise data lakes presents an opportunity for deriving data-driven insights. Widely-used dataset search systems rely on keyword search over dataset metadata, including descriptions, to support discovery. Therefore, when these descriptions are incomplete, missing, or inconsistent with dataset contents, findability is severely compromised. To improve findability, we introduce AutoDDG, a framework that automatically generates descriptions of tabular data. By adopting a data-driven approach to summarize dataset contents and leveraging large language models (LLMs) to enrich summaries with semantic information and produce human-readable text, AutoDDG derives descriptions that are comprehensive, accurate, readable, and concise. A critical challenge in this problem is evaluating the effectiveness of description generation methods and assessing the quality of the generated descriptions. We propose a comprehensive evaluation methodology that combines retrieval, reference-based, and reference-free assessment, with human validation. Our experimental results using new benchmarks demonstrate that AutoDDG generates high-quality, accurate descriptions at scale, significantly improving dataset retrieval performance across diverse use cases. AutoDDG is publicly available at https://github.com/VIDA-NYU/AutoDDG.},
+	urldate = {2026-04-01},
+	publisher = {arXiv},
+	author = {Zhang, Haoxiang and Liu, Yurong and Santos, Aécio and Hung, Wei-Lun and Freire, Juliana},
+	year = {2025},
+	note = {Version Number: 3},
+	keywords = {Databases (cs.DB), FOS: Computer and information sciences},
+}
+
+@inproceedings{santos_correlation_2021,
+	address = {Virtual Event China},
+	title = {Correlation {Sketches} for {Approximate} {Join}-{Correlation} {Queries}},
+	isbn = {978-1-4503-8343-1},
+	url = {https://dl.acm.org/doi/10.1145/3448016.3458456},
+	doi = {10.1145/3448016.3458456},
+	language = {en},
+	urldate = {2026-04-01},
+	booktitle = {Proceedings of the 2021 {International} {Conference} on {Management} of {Data}},
+	publisher = {ACM},
+	author = {Santos, Aécio and Bessa, Aline and Chirigati, Fernando and Musco, Christopher and Freire, Juliana},
+	month = jun,
+	year = {2021},
+	pages = {1531--1544},
+	file = {Full Text:/Users/juliana/Zotero/storage/B63PVN8D/Santos et al. - 2021 - Correlation Sketches for Approximate Join-Correlation Queries.pdf:application/pdf},
+}
+
+@inproceedings{santos_efficiently_2024,
+	address = {Utrecht, Netherlands},
+	title = {Efficiently {Estimating} {Mutual} {Information} {Between} {Attributes} {Across} {Tables}},
+	copyright = {https://doi.org/10.15223/policy-029},
+	isbn = {979-8-3503-1715-2},
+	url = {https://ieeexplore.ieee.org/document/10597858/},
+	doi = {10.1109/ICDE60146.2024.00022},
+	urldate = {2026-04-02},
+	booktitle = {2024 {IEEE} 40th {International} {Conference} on {Data} {Engineering} ({ICDE})},
+	publisher = {IEEE},
+	author = {Santos, Aécio and Korn, Flip and Freire, Juliana},
+	month = may,
+	year = {2024},
+	pages = {193--206},
+}
+
+@inproceedings{santos_sketch-based_2022,
+	address = {Kuala Lumpur, Malaysia},
+	title = {A {Sketch}-based {Index} for {Correlated} {Dataset} {Search}},
+	copyright = {https://doi.org/10.15223/policy-029},
+	isbn = {978-1-6654-0883-7},
+	url = {https://ieeexplore.ieee.org/document/9835690/},
+	doi = {10.1109/ICDE53745.2022.00264},
+	urldate = {2026-04-02},
+	booktitle = {2022 {IEEE} 38th {International} {Conference} on {Data} {Engineering} ({ICDE})},
+	publisher = {IEEE},
+	author = {Santos, Aecio and Bessa, Aline and Musco, Christopher and Freire, Juliana},
+	month = may,
+	year = {2022},
+	pages = {2928--2941},
+}
+
+@article{daliri_sampling_2024,
+	title = {Sampling {Methods} for {Inner} {Product} {Sketching}},
+	volume = {17},
+	issn = {2150-8097},
+	url = {https://dl.acm.org/doi/10.14778/3665844.3665850},
+	doi = {10.14778/3665844.3665850},
+	abstract = {Recently, Bessa et al. (PODS 2023) showed that sketches based on coordinated weighted sampling theoretically and empirically outperform popular linear sketching methods like Johnson-Lindentrauss projection and CountSketch for the ubiquitous problem of inner product estimation. We further develop this finding by introducing and analyzing two alternative sampling-based methods. In contrast to the computationally expensive algorithm in Bessa et al., our methods run in linear time (to compute the sketch) and perform better in practice, significantly beating linear sketching on a variety of tasks. For example, they provide state-of-the-art results for estimating the correlation between columns in unjoined tables, a problem that we show how to reduce to inner product estimation in a black-box way. While based on known sampling techniques (threshold and priority sampling) we introduce significant new theoretical analysis to prove approximation guarantees for our methods.},
+	language = {en},
+	number = {9},
+	urldate = {2026-04-02},
+	journal = {Proceedings of the VLDB Endowment},
+	author = {Daliri, Majid and Freire, Juliana and Musco, Christopher and Santos, Aécio and Zhang, Haoxiang},
+	month = may,
+	year = {2024},
+	pages = {2185--2197},
+}
+
+@article{castelo_auctus_2021,
+	title = {Auctus: a dataset search engine for data discovery and augmentation},
+	volume = {14},
+	issn = {2150-8097},
+	shorttitle = {Auctus},
+	url = {https://dl.acm.org/doi/10.14778/3476311.3476346},
+	doi = {10.14778/3476311.3476346},
+	abstract = {The large volumes of structured data currently available, from Web tables to open-data portals and enterprise data, open up new opportunities for progress in answering many important scientific, societal, and business questions. However, finding relevant data is difficult. While search engines have addressed this problem for Web documents, there are many new challenges involved in supporting the discovery of structured data. We demonstrate how the Auctus dataset search engine addresses some of these challenges. We describe the system architecture and how users can explore datasets through a rich set of queries. We also present case studies which show how Auctus supports data augmentation to improve machine learning models as well as to enrich analytics.},
+	language = {en},
+	number = {12},
+	urldate = {2026-04-02},
+	journal = {Proceedings of the VLDB Endowment},
+	author = {Castelo, Sonia and Rampin, Rémi and Santos, Aécio and Bessa, Aline and Chirigati, Fernando and Freire, Juliana},
+	month = jul,
+	year = {2021},
+	pages = {2791--2794},
+}
+
+@article{freire_large_2025,
+	title = {Large {Language} {Models} for {Data} {Discovery} and {Integration}: {Challenges} and {Opportunities}},
+	volume = {49},
+	journal = {IEEE Data Engineering Bulletin},
+	author = {Freire, Juliana and Fan, Grace and Feuer, Benjamin and Koutras, Christos and Liu, Yurong and Pena, Eduardo H. M. and Santos, Aecio and Silva, Claudio and Wu, Eden},
+	year = {2025},
+	pages = {3--31},
+}
+
+@article{feuer_archetype_2024,
+	title = {{ArcheType}: {A} {Novel} {Framework} for {Open}-{Source} {Column} {Type} {Annotation} {Using} {Large} {Language} {Models}},
+	volume = {17},
+	issn = {2150-8097},
+	shorttitle = {{ArcheType}},
+	url = {https://dl.acm.org/doi/10.14778/3665844.3665857},
+	doi = {10.14778/3665844.3665857},
+	abstract = {Existing deep-learning approaches to semantic column type annotation (CTA) have important shortcomings: they rely on semantic types which are fixed at training time; require a large number of training samples per type; incur high run-time inference costs; and their performance can degrade when evaluated on novel datasets, even when types remain constant. Large language models have exhibited strong zero-shot classification performance on a wide range of tasks and in this paper we explore their use for CTA. We introduce ArcheType, a simple, practical method for context sampling, prompt serialization, model querying, and label remapping, which enables large language models to solve CTA problems in a fully zero-shot manner. We ablate each component of our method separately, and establish that improvements to context sampling and label remapping provide the most consistent gains. ArcheType establishes a new state-of-the-art performance on zero-shot CTA benchmarks (including three new domain-specific benchmarks which we release along with this paper), and when used in conjunction with classical CTA techniques, it outperforms a SOTA DoDuo model on the fine-tuned SOTAB benchmark.},
+	language = {en},
+	number = {9},
+	urldate = {2026-04-02},
+	journal = {Proceedings of the VLDB Endowment},
+	author = {Feuer, Benjamin and Liu, Yurong and Hegde, Chinmay and Freire, Juliana},
+	month = may,
+	year = {2024},
+	pages = {2279--2292},
+}
+
+@inproceedings{zhang_dsdd_2021,
+	address = {Virtual Event Queensland Australia},
+	title = {{DSDD}: {Domain}-{Specific} {Dataset} {Discovery} on the {Web}},
+	isbn = {978-1-4503-8446-9},
+	shorttitle = {{DSDD}},
+	url = {https://dl.acm.org/doi/10.1145/3459637.3482427},
+	doi = {10.1145/3459637.3482427},
+	language = {en},
+	urldate = {2026-04-02},
+	booktitle = {Proceedings of the 30th {ACM} {International} {Conference} on {Information} \& {Knowledge} {Management}},
+	publisher = {ACM},
+	author = {Zhang, Haoxiang and Santos, Aécio and Freire, Juliana},
+	month = oct,
+	year = {2021},
+	pages = {2527--2536},
+}
+
+@inproceedings{marini_data_2025,
+	address = {Vienna, Austria},
+	title = {Data {Gatherer}: {LLM}-{Powered} {Dataset} {Reference} {Extraction} from {Scientific} {Literature}},
+	shorttitle = {Data {Gatherer}},
+	url = {https://aclanthology.org/2025.sdp-1.10},
+	doi = {10.18653/v1/2025.sdp-1.10},
+	language = {en},
+	urldate = {2026-04-02},
+	booktitle = {Proceedings of the {Fifth} {Workshop} on {Scholarly} {Document} {Processing} ({SDP} 2025)},
+	publisher = {Association for Computational Linguistics},
+	author = {Marini, Pietro and Santos, Aécio and Contaxis, Nicole and Freire, Juliana},
+	year = {2025},
+	pages = {114--123},
+	file = {Full Text:/Users/juliana/Zotero/storage/EZSWHIYS/Marini et al. - 2025 - Data Gatherer LLM-Powered Dataset Reference Extraction from Scientific Literature.pdf:application/pdf},
+}
+
+@misc{koutras_stratyper_2026,
+	title = {{StraTyper}: {Automated} {Semantic} {Type} {Discovery} and {Multi}-{Type} {Annotation} for {Dataset} {Collections}},
+	copyright = {arXiv.org perpetual, non-exclusive license},
+	shorttitle = {{StraTyper}},
+	url = {https://arxiv.org/abs/2602.04004},
+	doi = {10.48550/ARXIV.2602.04004},
+	abstract = {Understanding dataset semantics is crucial for effective search, discovery, and integration pipelines. To this end, column type annotation (CTA) methods associate columns of tabular datasets with semantic types that accurately describe their contents, using pre-trained deep learning models or Large Language Models (LLMs). However, existing approaches require users to specify a closed set of semantic types either at training or inference time, hindering their application to domain-specific datasets where pre-defined labels often lack adequate coverage and specificity. Furthermore, real-world datasets frequently contain columns with values belonging to multiple semantic types, violating the single-type assumption of existing CTA methods. While proprietary LLMs have shown effectiveness for CTA, they incur high monetary costs and produce inconsistent outputs for similar columns, leading to type redundancy that negatively affects downstream applications. To address these challenges, we introduce StraTyper, a cost-effective method for column type discovery (CTD) and multi-type annotation (CMTA) in dataset collections. StraTyper eliminates the need for pre-defined semantic labels by systematically employing LLMs to discovery types tailored to the dataset collection at hand. Through strategic column clustering, controlled type generation, and iterative cascading discovery, StraTyper balances type precision with annotation coverage while minimizing LLM costs. Our experimental evaluation-both manual and LLM-assisted-on real-world benchmarks demonstrates that StraTyper discovers accurate types for both numerical and non-numerical data, achieves substantial cost savings compared to commercial LLMs, and effectively handles multi-typed columns. We further show that StraTyper's annotations improve downstream tasks, including join discovery and schema matching, outperforming LLM-only baselines.},
+	urldate = {2026-04-03},
+	publisher = {arXiv},
+	author = {Koutras, Christos and Freire, Juliana},
+	year = {2026},
+	note = {Version Number: 1},
+	keywords = {Databases (cs.DB), FOS: Computer and information sciences},
+}
+
+@article{wu_bdiviz_2026,
+	title = {{BDIViz}: {An} {Interactive} {Visualization} {System} for {Biomedical} {Schema} {Matching} with {LLM}-{Powered} {Validation}},
+	volume = {32},
+	copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+	issn = {1077-2626, 1941-0506, 2160-9306},
+	shorttitle = {{BDIViz}},
+	url = {https://ieeexplore.ieee.org/document/11299421/},
+	doi = {10.1109/TVCG.2025.3634843},
+	number = {1},
+	urldate = {2026-04-03},
+	journal = {IEEE Transactions on Visualization and Computer Graphics},
+	author = {Wu, Eden and Turakhia, Dishita G and Wu, Guande and Koutras, Christos and Keegan, Sarah and Liu, Wenke and Szeitz, Beata and Fenyo, David and Silva, Cláudio T. and Freire, Juliana},
+	month = jan,
+	year = {2026},
+	pages = {1208--1218},
+}
+
+@article{chan_tivy_2026,
+	title = {{TiVy}: {Time} {Series} {Visual} {Summary} for {Scalable} {Visualization}},
+	volume = {32},
+	copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+	issn = {1077-2626, 1941-0506, 2160-9306},
+	shorttitle = {{TiVy}},
+	url = {https://ieeexplore.ieee.org/document/11264348/},
+	doi = {10.1109/TVCG.2025.3633882},
+	number = {1},
+	urldate = {2026-04-03},
+	journal = {IEEE Transactions on Visualization and Computer Graphics},
+	author = {Chan, Gromit Yeuk-Yin and Nonato, Luis Gustavo and Palpanas, Themis and Silva, Cláudio T. and Freire, Juliana},
+	month = jan,
+	year = {2026},
+	pages = {232--242},
+}
+
+@article{freire_bridging_2025,
+	title = {Bridging {Disciplines} in {Data} {Management} {Research} to {Solve} {Complex} {Data} {Problems}},
+	volume = {18},
+	issn = {2150-8097},
+	url = {https://dl.acm.org/doi/10.14778/3750601.3760523},
+	doi = {10.14778/3750601.3760523},
+	abstract = {Scientific discovery has undergone profound transformations across multiple paradigms, each bringing new data challenges whose solutions demand bridging multiple areas of computer science. This talk presents a research journey spanning three scientific paradigms and projects that illustrate how domain-driven problems reveal fundamental data management challenges and drive interdisciplinary innovation. From the need to manage complex pipelines and their provenance in computational science (3rd paradigm), to new requirements that arise in data-driven discovery (4th paradigm) to support visual exploration of large-scale spatio-temporal data, and today's AI-powered discovery paradigm (5th paradigm), where AI enables effective and general approaches to the long-standing data integration problem. The projects share a common pattern: complex scientific challenges demand more than single-discipline solutions, and by embracing collaboration across computer science areas and working closely with domain experts, we can identify fundamental research opportunities that lead to both methodological advances and systems with real-world impact.},
+	language = {en},
+	number = {12},
+	urldate = {2026-04-03},
+	journal = {Proceedings of the VLDB Endowment},
+	author = {Freire, Juliana},
+	month = aug,
+	year = {2025},
+	pages = {5538--5538},
+}
+
+@misc{pietro_dataref_2025,
+	title = {{DataRef}: {A} {Dataset} of {Data} {Citations}},
+	copyright = {Creative Commons Attribution 4.0 International},
+	shorttitle = {{DataRef}},
+	url = {https://zenodo.org/doi/10.5281/zenodo.15549086},
+	doi = {10.5281/ZENODO.15549086},
+	abstract = {The data in this record was generated while developing the Data Gatherer, an LLM-powered tool that automates the identification of dataset mentions and the extraction of structured dataset records for publications. All publications and dataset repository records used for development and testing are open access. This record includes two datasets: 
+
+
+
+DataRef-EXP Dataset (file name: EXP\_groundtruth.csv): The DataRef-EXP dataset was created by manually selecting and reviewing scholarly journal articles to ensure a diverse representation of dataset citation formats. Data were exclusively sourced from PubMed Central (PMC). A total of 21 journal articles were chosen, resulting in 48 dataset references. Journal articles were chosen in order to maximize the variation in how included datasets were referenced, enabling a comprehensive evaluation of the Data Gatherer tool’s ability to extract dataset mentions across various formats. Additionally, some articles were chosen due to errors in dataset mentions, like inaccurate accession numbers or incomplete dataset information (e.g., an accession number but no named repository).
+
+DataRef-REV Dataset:
+
+
+
+Full Dataset (file name: Full\_REV\_dataset\_citation\_records\_Table.parquet): This dataset was constructed using a reverse engineering methodology, leveraging structured metadata from ProteomeCentral and Gene Expression Omnibus (GEO). ProteomeCentral is a valuable source for ground truth data, offering curated metadata for 23,348 publicly available datasets, including dataset identifiers and one or more valid related paper DOIs or PubMed identifiers. Similarly, GEO is a public functional genomics data repository managed by the National Center for Biotechnology Information (NCBI). GEO provides programmatic access through a REST API that we used to retrieve 165,078 dataset identifiers with valid references to publications that mention them. A key limitation of this dataset is that it is based on datasets deposited in repositories that are part of the ProteomeXchange consortium or available in GEO. Each dataset entry includes a unique identifier, typically an accession code, along with the corresponding repository name, such as PRIDE, MassIVE, jPOST, iProX PeptideAtlas, or PanoramaPublic.
+
+Sample Dataset (file name: REV\_sample\_groundtruth.csv): Sampled from the Full dataset described above. It is a balanced sample with respect to the two metadata sources (GEO and ProteomeXchange). In summary, 1242 rows, where each row is a PMC publication with the corresponding dataset citations records extracted from the metadata sources.
+
+Remark: All the entries from the source metadata that lacked a DOI or publication link were discarded. As a result, this dataset contains 397,263 dataset references from 244,847 papers to 188,426 datasets.
+
+
+
+
+More details about Data Gatherer and this dataset (including how the datasets were generated) can be found in the paper:
+
+Pietro Marini, Aécio Santos, Nicole Contaxis, and Juliana Freire. Data Gatherer: LLM-Powered Dataset Reference Extraction from Scientific Literature. In Proceedings of the Fifth Workshop on Scholarly Document Processing (SDP). 2025.},
+	language = {en},
+	urldate = {2026-04-03},
+	publisher = {Zenodo},
+	author = {Pietro, Marini and Santos, Aécio and Contaxis, Nicole and Freire, Juliana},
+	month = may,
+	year = {2025},
+	keywords = {Bibliometrics, Data Citation, Data Curation, Data Discovery, Information Extraction, Information Retrieval, Metascience},
+}
+
+@article{freire_editorial_2025,
+	title = {Editorial for {Special} {Issue}: {VLDB} 2022},
+	volume = {34},
+	issn = {0949-877X},
+	url = {https://doi.org/10.1007/s00778-025-00930-y},
+	doi = {10.1007/s00778-025-00930-y},
+	number = {4},
+	journal = {The VLDB Journal},
+	author = {Freire, Juliana and Özcan, Fatma and Lin, Xuemin},
+	month = jun,
+	year = {2025},
+	pages = {52},
+}
+
+@inproceedings{fan_hierarchical_2025,
+	address = {Intercontinental Berlin Berlin Germany},
+	title = {Hierarchical {Table} {Semantics} for {Exploratory} {Table} {Discovery}},
+	isbn = {979-8-4007-1959-2},
+	url = {https://dl.acm.org/doi/10.1145/3736733.3736746},
+	doi = {10.1145/3736733.3736746},
+	language = {en},
+	urldate = {2026-04-03},
+	booktitle = {Proceedings of the {Workshop} on {Human}-{In}-the-{Loop} {Data} {Analytics}},
+	publisher = {ACM},
+	author = {Fan, Grace and Freire, Juliana},
+	month = jun,
+	year = {2025},
+	pages = {1--7},
+}
+
+@article{barbosa_cost-effective_2025,
+	title = {A {Cost}-{Effective} {LLM}-based {Approach} to {Identify} {Wildlife} {Trafficking} in {Online} {Marketplaces}},
+	volume = {3},
+	issn = {2836-6573},
+	url = {https://dl.acm.org/doi/10.1145/3725256},
+	doi = {10.1145/3725256},
+	abstract = {Wildlife trafficking remains a critical global issue, significantly impacting biodiversity, ecological stability, and public health. Despite efforts to combat this illicit trade, the rise of e-commerce platforms has made it easier to sell wildlife products, putting new pressure on wild populations of endangered and threatened species. The use of these platforms also opens a new opportunity: as criminals sell wildlife products online, they leave digital traces of their activity that can provide insights into trafficking activities as well as how they can be disrupted. The challenge lies in finding these traces. Online marketplaces publish ads for a plethora of products, and identifying ads for wildlife-related products is like finding a needle in a haystack. Learning classifiers can automate ad identification, but creating them requires costly, time-consuming data labeling that hinders support for diverse ads and research questions. This paper addresses a critical challenge in the data science pipeline for wildlife trafficking analytics: generating quality labeled data for classifiers that select relevant data. While large language models (LLMs) can directly label advertisements, doing so at scale is prohibitively expensive. We propose a cost-effective strategy that leverages LLMs to generate pseudo labels for a small sample of the data and uses these labels to create specialized classification models. Our novel method automatically gathers diverse and representative samples to be labeled while minimizing the labeling costs. Our experimental evaluation shows that our classifiers achieve up to 95\% F1 score, outperforming LLMs at a lower cost. We present real use cases that demonstrate the effectiveness of our approach in enabling analyses of different aspects of wildlife trafficking.},
+	language = {en},
+	number = {3},
+	urldate = {2026-04-03},
+	journal = {Proceedings of the ACM on Management of Data},
+	author = {Barbosa, Juliana Silva and Gondhali, Ulhas and Petrossian, Gohar and Sharma, Kinshuk and Chakraborty, Sunandan and Jacquet, Jennifer and Freire, Juliana},
+	month = jun,
+	year = {2025},
+	pages = {1--23},
+	file = {Submitted Version:/Users/juliana/Zotero/storage/ACUKFEG5/Barbosa et al. - 2025 - A Cost-Effective LLM-based Approach to Identify Wildlife Trafficking in Online Marketplaces.pdf:application/pdf},
+}
+
+@misc{ailamaki_cambridge_2025,
+	title = {The {Cambridge} {Report} on {Database} {Research}},
+	copyright = {Creative Commons Attribution Share Alike 4.0 International},
+	url = {https://arxiv.org/abs/2504.11259},
+	doi = {10.48550/ARXIV.2504.11259},
+	abstract = {On October 19 and 20, 2023, the authors of this report convened in Cambridge, MA, to discuss the state of the database research field, its recent accomplishments and ongoing challenges, and future directions for research and community engagement. This gathering continues a long standing tradition in the database community, dating back to the late 1980s, in which researchers meet roughly every five years to produce a forward looking report.
+ This report summarizes the key takeaways from our discussions. We begin with a retrospective on the academic, open source, and commercial successes of the community over the past five years. We then turn to future opportunities, with a focus on core data systems, particularly in the context of cloud computing and emerging hardware, as well as on the growing impact of data science, data governance, and generative AI.
+ This document is not intended as an exhaustive survey of all technical challenges or industry innovations in the field. Rather, it reflects the perspectives of senior community members on the most pressing challenges and promising opportunities ahead.},
+	urldate = {2026-04-03},
+	publisher = {arXiv},
+	author = {Ailamaki, Anastasia and Madden, Samuel and Abadi, Daniel and Alonso, Gustavo and Amer-Yahia, Sihem and Balazinska, Magdalena and Bernstein, Philip A. and Boncz, Peter and Cafarella, Michael and Chaudhuri, Surajit and Davidson, Susan and DeWitt, David and Diao, Yanlei and Dong, Xin Luna and Franklin, Michael and Freire, Juliana and Gehrke, Johannes and Halevy, Alon and Hellerstein, Joseph M. and Hill, Mark D. and Idreos, Stratos and Ioannidis, Yannis and Koch, Christoph and Kossmann, Donald and Kraska, Tim and Kumar, Arun and Li, Guoliang and Markl, Volker and Miller, Renée and Mohan, C. and Neumann, Thomas and Ooi, Beng Chin and Ozcan, Fatma and Parameswaran, Aditya and Pandis, Ippokratis and Patel, Jignesh M. and Pavlo, Andrew and Porobic, Danica and Sanca, Viktor and Stonebraker, Michael and Stoyanovich, Julia and Suciu, Dan and Tan, Wang-Chiew and Venkataraman, Shiv and Zaharia, Matei and Zdonik, Stanley B.},
+	year = {2025},
+	note = {Version Number: 1},
+	keywords = {Databases (cs.DB), FOS: Computer and information sciences},
+}
+
+@misc{santos_gdc-sm_2025,
+	title = {{GDC}-{SM}: {The} {GDC} {Schema} {Matching} {Benchmark}},
+	copyright = {Creative Commons Attribution 4.0 International},
+	shorttitle = {{GDC}-{SM}},
+	url = {https://zenodo.org/doi/10.5281/zenodo.14963587},
+	doi = {10.5281/ZENODO.14963587},
+	abstract = {GDC-SM is a schema matching evaluation benchmark based on a real data harmonization scenario that is common in biomedical research: pooling datasets from multiple studies to increase the number of patients. We used the study by Li et al. (2023) in which the authors: 1) pooled data from ten studies (available as supplementary material in the original primary research papers) that cover multiple patient cohorts and cancer types; and 2) mapped each dataset into the GDC standard, a data standard set by the US National Cancer Institute's Genomics Data Commons (GDC) for cancer genomic data.
+
+We obtained datasets from the 10 studies related to tumor analysis (see table below), and, with the help of the biomedical experts, manually aligned and matched these datasets to the Genomics Data Commons (GDC) standard version 3.1.0. The GDC standard dictionary describes data using a graph model that includes names and descriptions for nodes and attributes, as well as acceptable values for some attributes. However, for compatibility with other schema matching methods and benchmarks, we transformed the model to a relational schema that contains only column names and domain information (i.e., we disregard column descriptions). We created a simplified table reflecting the GDC format, the "target" table, listing domain values for each column without repetition.
+
+The benchmark includes 10 pairs of input-target tables. The number of columns in the source tables ranges from 16 to 179, and the number of rows ranges from 93 to 225. Our simplified GDC target schema comprises a single table with 736 columns. While some columns have a small number of distinct values (e.g., binary yes/no attributes), some contain up to 4,478 distinct values. The ground truth was manually curated by multiple annotators -- at least 3 annotators per matching pair, who used a mix of manual and automated methods for identifying possible candidate matches (e.g., GDC search tools and bdi-kit). Given that the correctness of some matches is very challenging to determine even for bioinformatics experts (e.g., it may require reading the original papers or asking data producers), the final match decisions were made by consensus based on what users would expect from an algorithm given the limited context. 
+
+For more details, refer to our paper:
+
+Yurong Liu, Eduardo Pena, Aécio Santos, Eden Wu, and Juliana Freire. "Magneto: Combining Small and Large Language Models for Schema Matching." To appear at PVLDB 2025. Arxiv preprint 2412.08194.
+
+For citations, please consider citing the paper above and this dataset as described below: 
+
+Santos, A., Wu, E., Lopez, R., Keegan, S., Pena, E., Liu, W., Liu, Y., Fenyo, D., \& Freire, J. (2025). GDC-SM: The GDC Schema Matching Benchmark (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14963588
+
+How to use
+
+The raw datasets used in this benchmark are sourced from publicly-available studies under Creative Commons licenses. However, some of these licenses include the NoDerivatives (ND) restriction, which prevents others from redistributing modified versions of the material, including transformed or processed datasets. Therefore, we only provide the ground-truth annotations and information about how to reconstruct the data tables from their original data source. We describe below how to recreate the CSV table files. 
+
+Generating data files from the publisher's original data
+
+For convenience, we provide the gdc\_download.py script, which automates the process of downloading, extracting, and preparing the data. It includes the following steps:
+
+
+
+Download Data: It retrieves the dataset from the paper publisher's website (supplemental files distributed with the paper).
+
+Extract Data: If the file is in Excel format, it extracts the specified sheet to a dataframe file.
+
+Clean Data: Performs some cleaning steps to ensure datasets are the same as the ones used in the paper (e.g., for the Vasaikar.csv dataset, it removes the first and last rows).
+
+Save as CSV: The processed data is saved as a .csv file in the input-tables folder.
+
+
+Install the dependencies listed in the requirements.txt file and run the script, and it will automatically handle the downloading, extraction, and processing of the data for you.
+
+Included files
+
+The dataset release includes the following files:
+
+
+
+gdc-sm-data.zipContains manually curated ground-truth mappings and a standardized target schema based on a real-world biomedical data harmonization task. It includes:
+
+
+
+data/ground-truth/Ten CSV files (Cao.csv, Clark.csv, Dou.csv, Gillette.csv, Huang.csv, Krug.csv, McDermott.csv, Satpathy.csv, Vasaikar.csv, Wang.csv), each containing mappings between column names from a source dataset and attributes in the GDC target schema. These mappings serve as the manually curated ground truth for the schema matching task.
+
+data/target-tables/gdc\_unique\_columns\_concat\_values.csv, the GDC target schema formatted as a relational table. It lists all attributes from the GDC data dictionary along with their unique, concatenated domain values.
+
+
+
+gdc\_download.pyA Python script that automates the download, extraction, and preparation of the source datasets directly from the original publishers. It handles Excel-to-CSV conversions, minor data cleaning steps, and file organization. When executed, this script creates two additional folders as output: 
+
+
+
+data/downloads/Contains the original spreadsheet files downloaded from the paper publisher's website.
+
+data/input-tables/Contains tables, in CSV format, to be used as source tables for the schema matching task.
+
+
+
+papers\_info.jsonA metadata file listing key details for each source study, including publication titles, URLs to the papers, dataset links, and sheet names from which the benchmark datasets were extracted. Needed needed to run the gdc\_download.py.
+
+requirements.txtSpecifies the Python package dependencies needed to run gdc\_download.py .
+
+
+Source table information
+
+The table below includes details for each study, such as relevant URLs for the original spreadsheet files used in the benchmark and sheet names where the source tables appear. Each row corresponds to a study and provides the following information:
+
+
+
+First Author: Name of the study's first author.
+
+Paper Title: Title of the publication.
+
+Paper URL: Link to the paper.
+
+Dataset URL: Link to the supplementary file containing the dataset extract from the paper for convenience.
+
+Relevant File: Name of the file or table in the supplementary material.
+
+Sheet Name: Name of the sheet in the file that contains the data.
+
+
+
+
+
+
+
+
+
+First Author
+
+
+
+Paper Title
+
+
+
+Paper URL
+
+
+
+Dataset URL
+
+
+
+Sheet Name
+
+
+
+
+
+Clark, D.J.
+
+
+
+Integrated Proteogenomic Characterization of Clear Cell Renal Cell Carcinoma
+
+
+
+https://doi.org/10.1016/j.cell.2019.10.007
+
+ 
+
+
+
+https://ars.els-cdn.com/content/image/1-s2.0-S0092867419311237-mmc1.xlsx
+
+
+
+ccrcc\_clinical\_characteristics
+
+
+
+
+
+Krug, K.
+
+
+
+Proteogenomic Landscape of Breast Cancer Tumorigenesis and Targeted Therapy
+
+
+
+https://doi.org/10.1016/j.cell.2020.10.036
+
+
+
+https://ars.els-cdn.com/content/image/1-s2.0-S0092867420314008-mmc1.xlsx
+
+
+
+A) Metadata
+
+
+
+
+
+Vasaikar, S.
+
+
+
+Proteogenomic Analysis of Human Colon Cancer Reveals New Therapeutic Opportunities
+
+https://doi.org/10.1016/j.cell.2019.03.030
+
+
+https://ars.els-cdn.com/content/image/1-s2.0-S0092867419302922-mmc1.xlsx
+
+
+
+B-ClinicalData
+
+
+
+
+
+Wang, L.-B.
+
+
+
+Proteogenomic and metabolomic characterization of human glioblastoma
+
+
+
+https://doi.org/10.1016/j.ccell.2021.01.006
+
+
+
+https://ars.els-cdn.com/content/image/1-s2.0-S1535610821000507-mmc2.xlsx
+
+
+
+clinical\_data
+
+
+
+
+
+Huang, C.
+
+
+
+Proteogenomic insights into the biology and treatment of HPV-negative head and neck squamous cell carcinoma
+
+https://doi.org/10.1016/j.ccell.2020.12.007
+
+
+https://ars.els-cdn.com/content/image/1-s2.0-S1535610820306553-mmc2.xlsx
+
+
+
+Meta table
+
+
+
+
+
+Satpathy, S.
+
+
+
+A proteogenomic portrait of lung squamous cell carcinoma
+
+https://doi.org/10.1016/j.cell.2021.07.016
+
+
+https://ars.els-cdn.com/content/image/1-s2.0-S0092867421008576-mmc1.xlsx
+
+
+
+Table S1A
+
+
+
+
+
+Gillette, M.A.
+
+
+
+Proteogenomic Characterization Reveals Therapeutic Vulnerabilities in Lung Adenocarcinoma
+
+https://doi.org/10.1016/j.cell.2020.06.013
+
+
+https://ars.els-cdn.com/content/image/1-s2.0-S0092867420307443-mmc1.xlsx
+
+
+
+Annotions\_S1A
+
+
+
+
+
+McDermott, J.E.
+
+
+
+Proteogenomic Characterization of Ovarian HGSC Implicates Mitotic Kinases, Replication Stress in Observed Chromosomal Instability
+
+https://doi.org/10.1016/j.xcrm.2020.100004
+
+
+https://ars.els-cdn.com/content/image/1-s2.0-S2666379120300045-mmc2.xlsx
+
+
+
+BaselineClinicalData
+
+
+
+
+
+Cao, L.
+
+
+
+Proteogenomic characterization of pancreatic ductal adenocarcinoma
+
+
+
+https://doi.org/10.1016/j.cell.2021.08.023
+
+
+
+https://ars.els-cdn.com/content/image/1-s2.0-S0092867421009971-mmc1.xlsx
+
+
+
+Clinical\_data
+
+
+
+
+
+Dou, Y.
+
+
+
+Proteogenomic Characterization of Endometrial Carcinoma
+
+https://doi.org/10.1016/j.cell.2020.01.026
+
+
+https://ars.els-cdn.com/content/image/1-s2.0-S0092867420301070-mmc1.xlsx
+
+
+
+UCEC\_CPTAC3\_meta\_table\_V2.1
+
+
+
+
+
+
+Acknowledgements
+
+
+
+This work was supported by NSF awards IIS-2106888 and OAC-2411221, and the DARPA Automating Scientific Knowledge Extraction and Modeling (ASKEM) program, agreement No. HR0011262087, and the ARPA-H BDF program. The views, opinions, and findings expressed are those of the authors and should not be interpreted as representing the official views or policies of DARPA, ARPA-H, the U.S. Government, or NSF. We thank our collaborators, Dr. Tonia Korves and the MITRE team, for contributing their experiences in biomedical data integration and an initial proof of concept of this benchmark.},
+	language = {en},
+	urldate = {2026-04-03},
+	publisher = {Zenodo},
+	author = {Santos, Aécio and Wu, Eden and Lopez, Roque and Keegan, Sarah and Pena, Eduardo and Liu, Wenke and Liu, Yurong and Fenyo, David and Freire, Juliana},
+	month = apr,
+	year = {2025},
+	keywords = {Data Harmonization, Data Integration, GDC, Schema Matching, Tabular Data},
+}
+
+@article{vieira_finding_2016,
+	title = {Finding seeds to bootstrap focused crawlers},
+	volume = {19},
+	issn = {1573-1413},
+	url = {https://doi.org/10.1007/s11280-015-0331-7},
+	doi = {10.1007/s11280-015-0331-7},
+	abstract = {Focused crawlers are effective tools for applications requiring a high number of pages belonging to a specific topic. Several strategies for implementing these crawlers have been proposed in the literature, which aim to improve crawling efficiency by increasing the number of relevant pages retrieved while avoiding non-relevant pages. However, an important aspect of these crawlers has been largely overlooked: the selection of the seed pages that serve as the starting points for a crawl. In this paper, we show that the seeds can greatly influence the performance of crawlers, and propose a new framework for automatically finding seeds. We describe a system that implements this framework and show, through a detailed experimental evaluation, that by providing crawlers a seed set that is large and varied, they not only obtain higher harvest rates but also an improved topic coverage.},
+	number = {3},
+	journal = {World Wide Web},
+	author = {Vieira, Karane and Barbosa, Luciano and da Silva, Altigran Soares and Freire, Juliana and Moura, Edleno},
+	month = may,
+	year = {2016},
+	pages = {449--474},
+}
+
+@inproceedings{vieira_siphon_2008,
+	address = {Napa Valley California USA},
+	title = {Siphon++: a hidden-webcrawler for keyword-based interfaces},
+	isbn = {978-1-59593-991-3},
+	shorttitle = {Siphon++},
+	url = {https://dl.acm.org/doi/10.1145/1458082.1458279},
+	doi = {10.1145/1458082.1458279},
+	language = {en},
+	urldate = {2026-04-05},
+	booktitle = {Proceedings of the 17th {ACM} conference on {Information} and knowledge management},
+	publisher = {ACM},
+	author = {Vieira, Karane and Barbosa, Luciano and Freire, Juliana and Silva, Altigran},
+	month = oct,
+	year = {2008},
+	pages = {1361--1362},
+}
+
+@inproceedings{aires_information_2020,
+	title = {An {Information} {Theory} {Approach} to {Detect} {Media} {Bias} in {News} {Websites}},
+	abstract = {News websites and portals are, together with social media, major sources of information nowadays. However, such types of media may be biased regarding, especially, political and ideological leaning/orientation. Hence, the awareness of such bias, leaning, or orientation is a key factor for the readers (content consumers) to decide how much content/opinion they accept or reject from a given source. Over the years, especially nowadays, biased information has been used as a tool to control and manipulate public opinion, ultimately leading to the proliferation of fake news. Consequently, it is important to develop methods to automatically identify and inform the reader about the eventual political and ideological bias of the sources. The majority of current research focuses on polarity detection or a bi-class problem, such as left vs. right-wing leaning or Democratic vs. Republican. In addition, most of them are based on a large number of features (lexical or bag-of-words), resulting in computationally intensive methods. In this work, we introduce Poll (POLitical Leaning detector), a strategy based on Information Theory concepts to detect media bias in news websites/portals considering bi-class and multi-class problems. Our strategy reduces the feature space to as little as the number of classes being considered, significantly reducing the overall computational cost. Compared to a representative baseline, our strategy yields a macro accuracy of up to 76\% for a four-class problem compared to 22\% for the baseline under the same conditions. For some classes, we could reach an F1 of 0.80 against 0.28 from the baseline.},
+	booktitle = {{ACM} {CIKM} {Workshop} on {Issues} of {Sentiment} {Discovery} and {Opinion} {Mining} ({WISDOM})},
+	author = {Aires, Victoria Patricia and Freire, Juliana and Nakamura, Fabiola and da Silva, Altigran Soares and Nakamura, Eduardo},
+	year = {2020},
+}
+
+@inproceedings{barbosa_organizing_2007,
+	address = {Istanbul},
+	title = {Organizing {Hidden}-{Web} {Databases} by {Clustering} {Visible} {Web} {Documents}},
+	isbn = {978-1-4244-0802-3},
+	url = {https://ieeexplore.ieee.org/document/4221681/},
+	doi = {10.1109/ICDE.2007.367878},
+	urldate = {2026-04-05},
+	booktitle = {2007 {IEEE} 23rd {International} {Conference} on {Data} {Engineering}},
+	publisher = {IEEE},
+	author = {Barbosa, Luciano and Freire, Juliana and Silva, Altigran},
+	month = apr,
+	year = {2007},
+	pages = {326--335},
+}
+
+@inproceedings{vieira_fast_2006,
+	address = {Arlington, Virginia, USA},
+	title = {A fast and robust method for web page template detection and removal},
+	isbn = {978-1-59593-433-8},
+	url = {http://portal.acm.org/citation.cfm?doid=1183614.1183654},
+	doi = {10.1145/1183614.1183654},
+	language = {en},
+	urldate = {2026-04-05},
+	booktitle = {Proceedings of the 15th {ACM} international conference on {Information} and knowledge management  - {CIKM} '06},
+	publisher = {ACM Press},
+	author = {Vieira, Karane and Da Silva, Altigran S. and Pinto, Nick and De Moura, Edleno S. and Cavalcanti, João M. B. and Freire, Juliana},
+	year = {2006},
+	pages = {258},
+}
+
+@article{lourenco_bugdoc_2023,
+	title = {{BugDoc}: {Iterative} debugging and explanation of pipeline},
+	volume = {32},
+	issn = {1066-8888, 0949-877X},
+	shorttitle = {{BugDoc}},
+	url = {https://link.springer.com/10.1007/s00778-022-00733-5},
+	doi = {10.1007/s00778-022-00733-5},
+	language = {en},
+	number = {1},
+	urldate = {2026-04-14},
+	journal = {The VLDB Journal},
+	author = {Lourenço, Raoni and Freire, Juliana and Simon, Eric and Weber, Gabriel and Shasha, Dennis},
+	month = jan,
+	year = {2023},
+	pages = {75--101},
+	file = {Submitted Version:/Users/juliana/Zotero/storage/LG7MLR3J/Lourenço et al. - 2023 - BugDoc Iterative debugging and explanation of pipeline.pdf:application/pdf},
+}
+
+@inproceedings{lourenco_bugdoc_2020,
+	address = {Portland OR USA},
+	title = {{BugDoc}: {A} {System} for {Debugging} {Computational} {Pipelines}},
+	isbn = {978-1-4503-6735-6},
+	shorttitle = {{BugDoc}},
+	url = {https://dl.acm.org/doi/10.1145/3318464.3384692},
+	doi = {10.1145/3318464.3384692},
+	language = {en},
+	urldate = {2026-04-14},
+	booktitle = {Proceedings of the 2020 {ACM} {SIGMOD} {International} {Conference} on {Management} of {Data}},
+	publisher = {ACM},
+	author = {Lourenço, Raoni and Freire, Juliana and Shasha, Dennis},
+	month = jun,
+	year = {2020},
+	pages = {2733--2736},
+	file = {Full Text:/Users/juliana/Zotero/storage/U22JWPPL/Lourenço et al. - 2020 - BugDoc A System for Debugging Computational Pipelines.pdf:application/pdf},
+}
+
+@article{lopez_bdi-kit_2026,
+	title = {{BDI}-{Kit}: {An} {AI}-powered toolkit for biomedical data harmonization},
+	volume = {7},
+	issn = {26663899},
+	shorttitle = {{BDI}-{Kit}},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S2666389925003186},
+	doi = {10.1016/j.patter.2025.101470},
+	language = {en},
+	number = {4},
+	urldate = {2026-05-22},
+	journal = {Patterns},
+	author = {Lopez, Roque and Santos, Aécio and Koutras, Christos and Freire, Juliana},
+	month = apr,
+	year = {2026},
+	pages = {101470},
+	file = {Full Text PDF:/Users/juliana/Zotero/storage/7AWSNNFF/Lopez et al. - 2026 - BDI-Kit An AI-powered toolkit for biomedical data harmonization.pdf:application/pdf},
+}
+
+@inproceedings{santos_interactive_2025,
+	title = {Interactive {Data} {Harmonization} with {LLM} {Agents}},
+	url = {https://openreview.net/attachment?id=Ckn7Wo2TmS&name=pdf},
+	booktitle = {{ACM} {SIGMOD} {NOVAS} workshop},
+	author = {Santos, Aécio and Pena, Eduardo and Lopez, Roque and Freire, Juliana},
+	year = {2025},
+}
+
+@misc{marini_dataref_2025,
+	title = {{DataRef}: {A} {Dataset} of {Data} {Citations} ({Version} 1.0)},
+	url = {https://doi.org/10.5281/zenodo.15549086},
+	doi = {10.5281/ZENODO.15549086},
+	publisher = {Zenodo},
+	author = {Marini, Pietro and Santos, Aécio S. R. and Contaxis, Nicole and Freire, Juliana},
+	month = may,
+	year = {2025},
+}
+
+@article{freire_large_2025-1,
+	title = {Large {Language} {Models} for {Data} {Discovery} and {Integration}: {Challenges} and {Opportunities}},
+	volume = {49},
+	url = {http://sites.computer.org/debull/A25mar/p3.pdf},
+	number = {1},
+	journal = {IEEE Data Eng. Bull.},
+	author = {Freire, Juliana and Fan, Grace and Feuer, Benjamin and Koutras, Christos and Liu, Yurong and Peña, Eduardo and Santos, Aécio S. R. and Silva, Cláudio T. and Wu, Eden},
+	year = {2025},
+	pages = {3--31},
+}
+
+@inproceedings{liu_enhancing_2024,
+	title = {Enhancing {Biomedical} {Schema} {Matching} with {LLM}-based {Training} {Data} {Generation}},
+	url = {https://openreview.net/forum?id=RMZVUP7NgL},
+	booktitle = {{NeurIPS} 2024 {Third} {Table} {Representation} {Learning} {Workshop}},
+	author = {Liu, Yurong and Santos, Aécio and Pena, Eduardo H. M. and Lopez, Roque and Wu, Eden and Freire, Juliana},
+	year = {2024},
+}
+
+@inproceedings{veizaga_gene_2025,
+	title = {Gene {Set} {Function} {Discovery} with {LLM}-{Based} {Agents} and {Knowledge} {Retrieval}},
+	url = {https://openreview.net/forum?id=mpvp5KP8fR},
+	booktitle = {{ICLR} 2025 {Workshop} on {Machine} {Learning} for {Genomics} {Explorations} ({MLGenX})},
+	author = {Veizaga, Daniela Pinto and Santos, Aécio and Freire, Juliana and Liu, Wenke and Keegan, Sarah and Fenyo, David},
+	year = {2025},
+}
+
+@article{liu_magneto_2025,
+	title = {Magneto: {Combining} {Small} and {Large} {Language} {Models} for {Schema} {Matching}},
+	volume = {18},
+	issn = {2150-8097},
+	shorttitle = {Magneto},
+	url = {https://dl.acm.org/doi/10.14778/3742728.3742757},
+	doi = {10.14778/3742728.3742757},
+	abstract = {Recent advances in language models (LMs) open new opportunities for schema matching (SM). Recent approaches have shown their potential and key limitations: while small LMs (SLMs) require costly, difficult-to-obtain training data, large LMs (LLMs) demand significant computational resources and face context window constraints. We present Magneto, a cost-effective and accurate solution for SM that combines the advantages of SLMs and LLMs to address their limitations. By structuring the SM pipeline in two phases, retrieval and reranking, Magneto can use computationally efficient SLM-based strategies to derive candidate matches which can then be reranked by LLMs, thus making it possible to reduce runtime while improving matching accuracy. We propose (1) a self-supervised approach to fine-tune SLMs which uses LLMs to generate syntactically diverse training data, and (2) prompting strategies that are effective for reranking. We also introduce a new benchmark, developed in collaboration with domain experts, which includes real biomedical datasets and presents new challenges for SM methods. Through a detailed experimental evaluation, using both our new and existing benchmarks, we show that Magneto is scalable and attains high accuracy for datasets from different domains.},
+	language = {en},
+	number = {8},
+	urldate = {2026-05-22},
+	journal = {Proceedings of the VLDB Endowment},
+	author = {Liu, Yurong and Pena, Eduardo H. M. and Santos, Aécio and Wu, Eden and Freire, Juliana},
+	month = apr,
+	year = {2025},
+	pages = {2681--2694},
+}
+
+@book{national_academies_of_sciences_engineering_and_medicine_reproducibility_2019,
+	title = {Reproducibility and {Replicability} in {Science}},
+	isbn = {978-0-309-48616-3},
+	url = {https://www.nap.edu/catalog/25303/reproducibility-and-replicability-in-science},
+	doi = {10.17226/25303},
+	abstract = {One of the pathways by which the scientific community confirms the validity of a new scientific discovery is by repeating the research that produced it. When a scientific effort fails to independently confirm the computations or results of a previous study, some fear that it may be a symptom of a lack of rigor in science, while others argue that such an observed inconsistency can be an important precursor to new discovery.{\textbackslash}nConcerns about reproducibility and replicability have been expressed in both scientific and popular media. As these concerns came to light, Congress requested that the National Academies of Sciences, Engineering, and Medicine conduct a study to assess the extent of issues related to reproducibility and replicability and to offer recommendations for improving rigor and transparency in scientific research.{\textbackslash}nReproducibility and Replicability in Science defines reproducibility and replicability and examines the factors that may lead to non-reproducibility and non-replicability in research. Unlike the typical expectation of reproducibility between two computations, expectations about replicability are more nuanced, and in some cases a lack of replicability can aid the process of scientific discovery. This report provides recommendations to researchers, academic institutions, journals, and funders on steps they can take to improve reproducibility and replicability in science.},
+	publisher = {The National Academies Press},
+	author = {{National Academies of Sciences, Engineering, and Medicine}},
+	year = {2019},
+}
+
+@article{fan_mosaicjoin_2026,
+	title = {{MosaicJoin}: {Compact} {Semantic} {Sketches} for {Value}-{Level} {Join} {Discovery}},
+	volume = {19},
+	issn = {2150-8097},
+	shorttitle = {{MosaicJoin}},
+	url = {https://dl.acm.org/doi/10.14778/3836663.3836722},
+	doi = {10.14778/3836663.3836722},
+	abstract = {Join discovery is a core task in dataset search, enabling users to find columns that can be joined with a given query column. Early approaches focused on equi-joins, but data lakes and open-data repositories often contain columns whose values refer to the same entity but use different syntactic representations. To address this challenge, recent approaches discover semantically joinable columns but face a fundamental trade-off: methods that perform value-level comparisons accurately identify joinable columns but scale poorly to columns with high cardinality; column-level methods that encode an entire column into a single embedding are efficient but do not capture the fine-grained value alignment that determines whether a join is possible. We present MosaicJoin, a value-level semantic join discovery method that balances this trade-off. MosaicJoin achieves scalability through a novel sketching strategy that approximates the joinability of a column pair without having to compare all values. At query time, MosaicJoin scores each candidate sketch using a joinability score at a cost bounded by the sketch size, making retrieval efficient even for high-cardinality columns. A query subsampling operator further reduces online search time with provable accuracy guarantees, enabling robust retrieval for large query columns. Extensive experiments show that MosaicJoin outperforms previously published methods across all benchmarks while running up to 66 times faster than other value-level methods. MosaicJoin requires no training or fine-tuning, and it scales robustly to query columns containing up to 57K values and data lake columns containing up to 1M values.},
+	language = {en},
+	number = {11},
+	urldate = {2026-09-22},
+	journal = {Proceedings of the VLDB Endowment},
+	author = {Fan, Grace and Wu, Eden and Daliri, Majid and Freire, Juliana},
+	month = jul,
+	year = {2026},
+	pages = {3745--3758},
+}
+
+@article{freire_semantic_2026,
+	title = {Semantic {Data} {Systems}: {From} {Data} {Management} to {Data} {Understanding}},
+	volume = {19},
+	issn = {2150-8097},
+	shorttitle = {Semantic {Data} {Systems}},
+	url = {https://dl.acm.org/doi/10.14778/3827998.3838712},
+	doi = {10.14778/3827998.3838712},
+	abstract = {For decades, data management systems have relied on syntactic, structural, and statistical representations of data, leaving semantic understanding largely to human users. This division has become increasingly problematic as users analyze data disconnected from their original collection context, and yet must determine whether datasets are relevant, compatible, and trustworthy. Large language models (LLMs) introduce a new computational capability: the ability to reason about the meaning of data and leverage accumulated background knowledge. I argue that semantic understanding should be viewed as a new systems primitive for data management, enabling a new class of
+              semantic data systems
+              in which understanding becomes a first-class computational capability that complements syntactic and statistical representations of data.
+            
+            Drawing on our recent work spanning dataset discovery, semantic type discovery, schema matching, data harmonization, and agentic workflows, I show that LLMs alone do not solve data management problems: the central challenge is no longer enabling machines to understand data, but designing systems that can represent, maintain, evaluate, and exploit that understanding. These systems should externalize semantic knowledge into reusable artifacts, combine semantic reasoning with algorithms through structured workflows, subject decisions to human validation, and expose specialized capabilities as composable primitives that agents can orchestrate. This perspective suggests a research agenda for semantic data systems that extends beyond data discovery and integration toward a broader transformation of data management.},
+	language = {en},
+	number = {12},
+	urldate = {2026-09-22},
+	journal = {Proceedings of the VLDB Endowment},
+	author = {Freire, Juliana},
+	month = aug,
+	year = {2026},
+	pages = {4973--4980},
+}
+
+@article{zhang_autoddg_2026,
+	title = {{AutoDDG}: {Automated} {Dataset} {Description} {Generation} using {Large} {Language} {Models}},
+	volume = {4},
+	issn = {2836-6573},
+	shorttitle = {{AutoDDG}},
+	url = {https://dl.acm.org/doi/10.1145/3786626},
+	doi = {10.1145/3786626},
+	abstract = {The proliferation of datasets across open data portals and enterprise data lakes presents an opportunity for deriving data-driven insights. Widely-used dataset search systems rely on keyword search over dataset metadata to support discovery. Therefore, when metadata is incomplete, missing, or inconsistent with dataset contents, findability is severely compromised. To address this limitation, we introduce AutoDDG, a framework that automatically generates textual descriptions of tabular data. By adopting a data-driven approach to summarize dataset contents and leveraging large language models (LLMs) to enrich summaries with semantic information and produce human-readable text, AutoDDG derives descriptions that are comprehensive, accurate, readable, and concise. A critical challenge in this problem is evaluating the effectiveness of description generation methods and assessing the quality of the generated descriptions. We propose a comprehensive evaluation methodology that combines retrieval, reference-based, and reference-free assessment, with human validation. Our experimental results using new benchmarks demonstrate that AutoDDG generates high-quality, accurate descriptions at scale, significantly improving dataset retrieval performance across diverse use cases. AutoDDG is available at https://github.com/VIDA-NYU/AutoDDG.},
+	language = {en},
+	number = {1},
+	urldate = {2026-09-22},
+	journal = {Proceedings of the ACM on Management of Data},
+	author = {Zhang, Haoxiang and Liu, Yurong and Santos, Aécio and Hung, Wei-Lun (Allen) and Freire, Juliana},
+	month = apr,
+	year = {2026},
+	pages = {1--27},
+	file = {Submitted Version:/Users/juliana/Zotero/storage/7D6VPCGX/Zhang et al. - 2026 - AutoDDG Automated Dataset Description Generation using Large Language Models.pdf:application/pdf},
+}
+
+@article{ionescu_interoperability_2026,
+	title = {Interoperability in {Healthcare}: {A} {Primer} and {New} {Frontiers}},
+	volume = {19},
+	issn = {2150-8097},
+	shorttitle = {Interoperability in {Healthcare}},
+	url = {https://dl.acm.org/doi/10.14778/3827998.3828149},
+	doi = {10.14778/3827998.3828149},
+	abstract = {Interoperability in healthcare remains difficult despite decades of standards and infrastructure. Although messaging protocols and standards enable systems to exchange data, they do not guarantee that clinical meaning is preserved across organisations, workflows, and cultural contexts. This persistent gap between where semantics are used in care and how they are exchanged continues to drive fragmentation, bespoke mappings, and costly manual integration.
+            This tutorial offers a primer and a forward-looking agenda by framing interoperability as three generations. We first revisit the pre-interoperability era of proprietary systems and point-to-point integrations. We then cover the standards-based second generation, highlighting what it solved (e.g., connectivity) and what it left unresolved (e.g., semantic alignment). Finally, we outline an emerging third generation towards true interoperability, and conclude with research directions for building interoperability in the AI era.},
+	language = {en},
+	number = {12},
+	urldate = {2026-09-22},
+	journal = {Proceedings of the VLDB Endowment},
+	author = {Ionescu, Andra and Carbone, Paris and Meijer, Sebastiaan and Koutras, Christos and Freire, Juliana and Hose, Katja and Raghothama, Jayanth},
+	month = aug,
+	year = {2026},
+	pages = {4912--4917},
+}
+
+@article{sauro_fair_2026,
+	title = {From {FAIR} to {CURE}: guidelines for computational models of biological systems},
+	volume = {12},
+	issn = {2056-7189},
+	shorttitle = {From {FAIR} to {CURE}},
+	url = {https://www.nature.com/articles/s41540-026-00651-0},
+	doi = {10.1038/s41540-026-00651-0},
+	abstract = {Abstract
+            Guidelines for managing scientific data have been established under the FAIR principles, requiring that data be Findable, Accessible, Interoperable, and Reusable. In many scientific disciplines, especially computational biology, both data and models are key to progress. For this reason, and recognizing that such models are a very special type of “data”, we argue that computational models, especially mechanistic models prevalent in medicine, physiology and systems biology, deserve a complementary set of guidelines. We propose the CURE principles, emphasizing that models should be Credible, Understandable, Reproducible, and Extensible. We delve into each principle, discussing verification, validation, and uncertainty quantification for model credibility; the clarity of model descriptions and annotations for understandability; adherence to standards and open science practices for reproducibility; and the use of open standards and modular code for extensibility and reuse. We outline recommended and baseline requirements for each aspect of CURE, aiming to enhance the impact and trustworthiness of computational models, particularly in biomedical applications where credibility is paramount. Our perspective underscores the need for a more disciplined approach to modeling, aligning with emerging trends such as Digital Twins and emphasizing the importance of data and modeling standards for interoperability and reuse. Finally, we emphasize that given the non-trivial effort required to implement the guidelines, the community should strive to automate as many of the guidelines as possible.},
+	language = {en},
+	number = {1},
+	urldate = {2026-09-22},
+	journal = {npj Systems Biology and Applications},
+	author = {Sauro, Herbert M. and Agmon, Eran and Blinov, Michael L. and Gennari, John H. and Hellerstein, Joseph L. and Heydarabadipour, Adel and Jardine, Bartholomew E. and May, Elebeoba and Nickerson, David P. and Smith, Lucian P. and Bader, Gary D. and Bergmann, Frank T. and Boyle, Patrick M. and Dräger, Andreas and Faeder, James R. and Feng, Song and Freire, Juliana and Fröhlich, Fabian and Glazier, James A. and Gorochowski, Thomas E. and Helikar, Tomas and Hermjakob, Henning and Hoops, Stefan and Hunter, Peter and Imoukhuede, Princess I. and Keating, Sarah M. and König, Matthias and Laubenbacher, Reinhard and Loew, Leslie M. and Lopez, Carlos F. and Lytton, William W. and Malik-Sheriff, Rahuman S. and McCulloch, Andrew and Mendes, Pedro and Mulugeta, Lealem and Myers, Chris J. and Myers Jr, Jerry G. and Niarakis, Anna and Niekerk, David D. Van and Olivier, Brett G. and Patrie, Alexander A. and Quardokus, Ellen M. and Radde, Nicole and Rohwer, Johann M. and Sahle, Sven and Schaff, James C. and Schreiber, Falk and Sego, T. J. and Shin, Janis and Snoep, Jacky L. and Vadigepalli, Rajanikanth and Wiley, H. Steven and Waltemath, Dagmar and Moraru, Ion I.},
+	month = mar,
+	year = {2026},
+	pages = {77},
+	file = {Full Text:/Users/juliana/Zotero/storage/HK7DQNM8/Sauro et al. - 2026 - From FAIR to CURE guidelines for computational models of biological systems.pdf:application/pdf},
+}
+
+@article{petrossian_scaling_2026,
+	title = {Scaling the web: {Unraveling} online reptile leather trade networks with machine learning and network analysis},
+	volume = {314},
+	issn = {00063207},
+	shorttitle = {Scaling the web},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S0006320725007098},
+	doi = {10.1016/j.biocon.2025.111672},
+	language = {en},
+	urldate = {2026-09-22},
+	journal = {Biological Conservation},
+	author = {Petrossian, G.A. and Lang, J. and Von Ferber, J. and Gondhali, U. and Lieu, B. and Bernstein, K. and Barbosa, J. and Sharma, K. and Chakraborty, S. and Freire, J.},
+	month = feb,
+	year = {2026},
+	pages = {111672},
+}
+
+@article{barbosa_hilts_2026,
+	title = {{HILTS}: {Human}-{LLM} collaboration for effective data labeling},
+	volume = {138},
+	issn = {03064379},
+	shorttitle = {{HILTS}},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S0306437925001462},
+	doi = {10.1016/j.is.2025.102660},
+	language = {en},
+	urldate = {2026-09-22},
+	journal = {Information Systems},
+	author = {Barbosa, Juliana and Alencar, Eduarda and Fan, Grace and Santos, Aécio and Freire, Juliana},
+	month = jun,
+	year = {2026},
+	pages = {102660},
+}
+
+@article{davis-stober_how_2025,
+	title = {How can we make sound replication decisions?},
+	volume = {122},
+	issn = {0027-8424, 1091-6490},
+	url = {https://pnas.org/doi/10.1073/pnas.2401236121},
+	doi = {10.1073/pnas.2401236121},
+	abstract = {Replication and the reported crises impacting many fields of research have become a focal point for the sciences. This has led to reforms in publishing, methodological design and reporting, and increased numbers of experimental replications coordinated across many laboratories. While replication is rightly considered an indispensable tool of science, financial resources and researchers’ time are quite limited. In this perspective, we examine different values and attitudes that scientists can consider when deciding whether to replicate a finding and how. We offer a conceptual framework for assessing the usefulness of various replication tools, such as preregistration.},
+	language = {en},
+	number = {5},
+	urldate = {2026-09-22},
+	journal = {Proceedings of the National Academy of Sciences},
+	author = {Davis-Stober, Clintin P. and Sarafoglou, Alexandra and Aczel, Balazs and Chandramouli, Suyog H. and Errington, Timothy M. and Field, Sarahanne M. and Fishbach, Ayelet and Freire, Juliana and Ioannidis, John P. A. and Oberauer, Klaus and Pestilli, Franco and Ressl, Susanne and Schad, Daniel J. and Ter Schure, Judith and Tentori, Katya and Van Ravenzwaaij, Don and Vandekerckhove, Joachim and Gundersen, Odd Erik},
+	month = feb,
+	year = {2025},
+	pages = {e2401236121},
+	file = {Submitted Version:/Users/juliana/Zotero/storage/RAFD9TUP/Davis-Stober et al. - 2025 - How can we make sound replication decisions.pdf:application/pdf},
+}
+
+@article{chakraborty_prevalence_2025,
+	title = {Prevalence of endangered shark trophies in automated detection of the online wildlife trade},
+	volume = {304},
+	issn = {00063207},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S0006320725000291},
+	doi = {10.1016/j.biocon.2025.110992},
+	language = {en},
+	urldate = {2026-09-22},
+	journal = {Biological Conservation},
+	author = {Chakraborty, Sunandan and Roberts, Spencer N. and Petrossian, Gohar A. and Sosnowski, Monique and Freire, Juliana and Jacquet, Jennifer},
+	month = apr,
+	year = {2025},
+	pages = {110992},
+}
+
+@article{freire_singularity_2024,
+	title = {The {Singularity} in {Data} and {Computation}-{Driven} {Science}: {Can} {It} {Scale} {Beyond} {Machine} {Learning}?},
+	volume = {6},
+	shorttitle = {The {Singularity} in {Data} and {Computation}-{Driven} {Science}},
+	url = {https://hdsr.mitpress.mit.edu/pub/4wk8b8ix},
+	doi = {10.1162/99608f92.28953700},
+	language = {en},
+	number = {1},
+	urldate = {2026-09-22},
+	journal = {Harvard Data Science Review},
+	author = {Freire, Juliana},
+	month = may,
+	year = {2024},
+	file = {Full Text:/Users/juliana/Zotero/storage/DM9ZHLW4/Freire - 2024 - The Singularity in Data and Computation-Driven Science Can It Scale Beyond Machine Learning.pdf:application/pdf},
+}
+
+@article{abadi_seattle_2022,
+	title = {The {Seattle} report on database research},
+	volume = {65},
+	issn = {0001-0782, 1557-7317},
+	url = {https://dl.acm.org/doi/10.1145/3524284},
+	doi = {10.1145/3524284},
+	abstract = {Every five years, a group of the leading database researchers meet to reflect on their community's impact on the computing industry as well as examine current research challenges.},
+	language = {en},
+	number = {8},
+	urldate = {2026-09-22},
+	journal = {Communications of the ACM},
+	author = {Abadi, Daniel and Ailamaki, Anastasia and Andersen, David and Bailis, Peter and Balazinska, Magdalena and Bernstein, Philip A. and Boncz, Peter and Chaudhuri, Surajit and Cheung, Alvin and Doan, Anhai and Dong, Luna and Franklin, Michael J. and Freire, Juliana and Halevy, Alon and Hellerstein, Joseph M. and Idreos, Stratos and Kossmann, Donald and Kraska, Tim and Krishnamurthy, Sailesh and Markl, Volker and Melnik, Sergey and Milo, Tova and Mohan, C. and Neumann, Thomas and Ooi, Beng Chin and Ozcan, Fatma and Patel, Jignesh and Pavlo, Andrew and Popa, Raluca and Ramakrishnan, Raghu and Re, Christopher and Stonebraker, Michael and Suciu, Dan},
+	month = aug,
+	year = {2022},
+	pages = {72--79},
+	file = {Submitted Version:/Users/juliana/Zotero/storage/Y25DWYY3/Abadi et al. - 2022 - The Seattle report on database research.pdf:application/pdf},
+}
+
+@article{pimentel_understanding_2021,
+	title = {Understanding and improving the quality and reproducibility of {Jupyter} notebooks},
+	volume = {26},
+	issn = {1382-3256, 1573-7616},
+	url = {https://link.springer.com/10.1007/s10664-021-09961-9},
+	doi = {10.1007/s10664-021-09961-9},
+	language = {en},
+	number = {4},
+	urldate = {2026-09-22},
+	journal = {Empirical Software Engineering},
+	author = {Pimentel, João Felipe and Murta, Leonardo and Braganholo, Vanessa and Freire, Juliana},
+	month = jul,
+	year = {2021},
+	pages = {65},
+}
+
+@article{piazentin_ono_interactive_2021,
+	title = {Interactive {Data} {Visualization} in {Jupyter} {Notebooks}},
+	volume = {23},
+	copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+	issn = {1521-9615, 1558-366X},
+	url = {https://ieeexplore.ieee.org/document/9391750/},
+	doi = {10.1109/MCSE.2021.3052619},
+	number = {2},
+	urldate = {2026-09-22},
+	journal = {Computing in Science \& Engineering},
+	author = {Piazentin Ono, Jorge and Freire, Juliana and Silva, Claudio T.},
+	month = mar,
+	year = {2021},
+	pages = {99--106},
+}
+
+@article{ono_pipelineprofiler_2021,
+	title = {\textit{{PipelineProfiler}:} {A} {Visual} {Analytics} {Tool} for the {Exploration} of {AutoML} {Pipelines}},
+	volume = {27},
+	copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+	issn = {1077-2626, 1941-0506, 2160-9306},
+	shorttitle = {\textit{{PipelineProfiler}}},
+	url = {https://ieeexplore.ieee.org/document/9222086/},
+	doi = {10.1109/TVCG.2020.3030361},
+	number = {2},
+	urldate = {2026-09-22},
+	journal = {IEEE Transactions on Visualization and Computer Graphics},
+	author = {Ono, Jorge Piazentin and Castelo, Sonia and Lopez, Roque and Bertini, Enrico and Freire, Juliana and Silva, Claudio},
+	month = feb,
+	year = {2021},
+	pages = {390--400},
+}
+
+@article{bailis_winds_2020,
+	title = {Winds from seattle: database research directions},
+	volume = {13},
+	issn = {2150-8097},
+	shorttitle = {Winds from seattle},
+	url = {https://dl.acm.org/doi/10.14778/3415478.3415573},
+	doi = {10.14778/3415478.3415573},
+	abstract = {The database research community has been notably successful in impacting the industry and academia since the invention of the relational model. Examples of innovation in the last decade include columnar storage for data analytic platforms, cloud data services, HTAP systems, and a new generation of data wrangling systems. Despite this success, critical self-assessment by the community and identifying key opportunities for the future is essential if we are to continue the tradition of impactful research. In the Fall of 2018, following a long tradition that dates back to 1988 [4], and five years after the last such meeting [1], a group of approximately thirty database researchers gathered at the University of Washington, Seattle for two days to discuss the opportunities we have as a community for impactful research. A report from that meeting is now available [2]. The discussions in the Seattle meeting focused not just on technical challenges and opportunities but also on topics related to how we organize ourselves as a community. This VLDB panel follows on from a previous discussion at SIGMOD 2020 [3], to provide a forum for the broader database community to review and debate the findings from the Seattle Report on Database Research [2] as well as to identify other challenges, and opportunities that need to be taken into account.},
+	language = {en},
+	number = {12},
+	urldate = {2026-09-22},
+	journal = {Proceedings of the VLDB Endowment},
+	author = {Bailis, Peter and Freire, Juliana and Balazinska, Magda and Ramakrishnan, Raghu and Hellerstein, Joseph M. and Dong, Xin Luna and Stonebraker, Michael},
+	month = aug,
+	year = {2020},
+	pages = {3516--3516},
+}
+
+@article{fekete_exploring_2020,
+	title = {Exploring {Reproducibility} in {Visualization}},
+	volume = {40},
+	copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
+	issn = {0272-1716, 1558-1756},
+	url = {https://ieeexplore.ieee.org/document/9175075/},
+	doi = {10.1109/MCG.2020.3006412},
+	number = {5},
+	urldate = {2026-09-22},
+	journal = {IEEE Computer Graphics and Applications},
+	author = {Fekete, Jean-Daniel and Freire, Juliana},
+	month = sep,
+	year = {2020},
+	pages = {108--119},
+}
+
+@article{ota_data-driven_2020,
+	title = {Data-driven domain discovery for structured datasets},
+	volume = {13},
+	issn = {2150-8097},
+	url = {https://dl.acm.org/doi/10.14778/3384345.3384346},
+	doi = {10.14778/3384345.3384346},
+	abstract = {The growing number of open datasets has created new opportunities to derive insights and address important societal problems. These data, however, often come with little or no metadata, in particular about the
+              types
+              of their attributes, thus greatly limiting their utility. In this paper, we address the problem of
+              domain discovery
+              : given a collection of tables, we aim to identify sets of terms that represent instances of a semantic concept or domain. Knowledge of attribute domains not only enables a richer set of queries over dataset collections, but it can also help in data integration. We propose a data-driven approach that leverages value co-occurrence information across a large number of dataset columns to derive robust context signatures and infer domains. We discuss the results of a detailed experimental evaluation, using real urban dataset collections, which show that our approach is robust and outperforms state-of-the-art methods in the presence of incomplete columns, heterogeneous or erroneous data, and scales to datasets with several million distinct terms.},
+	language = {en},
+	number = {7},
+	urldate = {2026-09-22},
+	journal = {Proceedings of the VLDB Endowment},
+	author = {Ota, Masayo and Müller, Heiko and Freire, Juliana and Srivastava, Divesh},
+	month = mar,
+	year = {2020},
+	pages = {953--967},
+}
+
+@inproceedings{wu_agenttrails_2026,
+	title = {{AgentTrails}: {Towards} {Trust} and {Reuse} for {Agentic} {Tasks}},
+	shorttitle = {{AgentTrails}},
+	url = {http://arxiv.org/abs/2607.18816},
+	doi = {10.48550/arXiv.2607.18816},
+	abstract = {LLM-powered agents increasingly tackle complex tasks by invoking tools, querying databases, executing code, and manipulating intermediate artifacts. These agents follow trajectories that are typically stored as chronological logs, obscuring the underlying dataflow -- the dependencies between their actions and the artifacts they create and manipulate. This limits developers' ability to understand the agents' trails, compare executions, debug failures, and re-use the computations. We present AgentTrails, a prototype system for agent provenance and sensemaking. AgentTrails converts raw trajectories into structured provenance graphs, where tool calls are modeled as computational actions and inputs and outputs as data artifacts. The system supports the comparison of executions by placing multiple provenance graphs on a shared canvas and constructing a joined quotient graph that aligns recurring tools, artifacts, and dependency structures across trajectories. On top of this representation, AgentTrails supports pattern extraction, downstream analysis, and skill abstraction. We demonstrate AgentTrails on real-world agent trajectories, showing that it reveals hidden dependencies, aligns divergent executions, and surfaces recurring tool-use patterns beyond chronological logs.},
+	urldate = {2026-09-22},
+	publisher = {ACM SIGMOD DashSys Workshop},
+	author = {Wu, Eden and Castelo, Sonia and Liu, Yurong and Silva, Cláudio T. and Freire, Juliana},
+	month = jul,
+	year = {2026},
+	note = {arXiv:2607.18816 [cs.DB]},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Databases},
+	file = {Preprint PDF:/Users/juliana/Zotero/storage/ZHPXGL3F/Wu et al. - 2026 - AgentTrails Towards Trust and Reuse for Agentic Tasks.pdf:application/pdf;Snapshot:/Users/juliana/Zotero/storage/IJ2VHZ9R/2607.html:text/html},
+}
+
+@inproceedings{wu_bdiviz_2026-1,
+	address = {Bengaluru India},
+	title = {{BDIViz} in {Action}: {Interactive} {Curation} and {Benchmarking} for {Schema} {Matching} {Methods}},
+	isbn = {979-8-4007-2450-3},
+	shorttitle = {{BDIViz} in {Action}},
+	url = {https://dl.acm.org/doi/10.1145/3788853.3801596},
+	doi = {10.1145/3788853.3801596},
+	language = {en},
+	urldate = {2026-09-22},
+	booktitle = {Companion of the {International} {Conference} on {Management} of {Data}},
+	publisher = {ACM},
+	author = {Wu, Eden and Koutras, Christos and Silva, Cláudio T. and Freire, Juliana},
+	month = may,
+	year = {2026},
+	pages = {138--141},
+}
+
+@inproceedings{lopez_bdi-kit_2026-1,
+	address = {Bengaluru India},
+	title = {{BDI}-{Kit} {Demo}: {A} {Toolkit} for {Programmable} and {Conversational} {Data} {Harmonization}},
+	isbn = {979-8-4007-2450-3},
+	shorttitle = {{BDI}-{Kit} {Demo}},
+	url = {https://dl.acm.org/doi/10.1145/3788853.3801608},
+	doi = {10.1145/3788853.3801608},
+	language = {en},
+	urldate = {2026-09-22},
+	booktitle = {Companion of the {International} {Conference} on {Management} of {Data}},
+	publisher = {ACM},
+	author = {Lopez, Roque and Liu, Yurong and Koutras, Christos and Freire, Juliana},
+	month = may,
+	year = {2026},
+	pages = {94--97},
+}
+
+@inproceedings{sharma_descriptive_2025,
+	address = {Toronto ON Canada},
+	title = {Descriptive {Analysis} of {Online} {Wildlife} {Products} {Using} {Vision} {Language} {Models}},
+	isbn = {979-8-4007-1484-9},
+	url = {https://dl.acm.org/doi/10.1145/3715335.3735484},
+	doi = {10.1145/3715335.3735484},
+	language = {en},
+	urldate = {2026-09-22},
+	booktitle = {Proceedings of the {ACM} {SIGCAS}/{SIGCHI} {Conference} on {Computing} and {Sustainable} {Societies}},
+	publisher = {ACM},
+	author = {Sharma, Kinshuk and Barbosa, Juliana Silva and Roberts, Spencer and Gondhali, Ulhas and Petrossian, Gohar and Jacquet, Jennifer and Freire, Juliana and Chakraborty, Sunandan},
+	month = jul,
+	year = {2025},
+	pages = {461--472},
+	file = {Full Text PDF:/Users/juliana/Zotero/storage/2SYYWUTG/Sharma et al. - 2025 - Descriptive Analysis of Online Wildlife Products Using Vision Language Models.pdf:application/pdf},
+}
+
+@inproceedings{silva_quantizing_2026,
+	title = {Quantizing {Sampling}-{Based} {Inner} {Product} {Sketches}},
+	url = {https://openreview.net/forum?id=7FVALJmtXl},
+	booktitle = {The 2nd {Workshop} on {Vector} {Databases}},
+	author = {Silva, Gabriel M. and Santos, Aécio and Daliri, Majid and Freire, Juliana and Musco, Christopher},
+	year = {2026},
+}
+
+@inproceedings{marini_data_2026,
+	title = {Data {Gatherer} {Revisited}: {Scalable} {Dataset} {Reference} {Extraction} from {Biomedical} {Literature}},
+	url = {https://openreview.net/forum?id=NA3cYmjL2u},
+	booktitle = {{VLDB} 2026 {Workshop} on {Biomedical} {Data} {Management} {Systems} ({BioDMS})},
+	author = {Marini, Pietro and Nalls, Michael and Peters, Mette and Contaxis, Nicole and Santos, Aécio and Freire, Juliana},
+	year = {2026},
+}
+
+@inproceedings{wang_lakeqa_2026,
+	title = {{LakeQA}: {An} {Exploratory} {QA} {Benchmark} over a {Million}-{Scale} {Data} {Lake}},
+	booktitle = {Proceedings of the {International} {Conference} on {Machine} {Learning} ({ICML})},
+	author = {Wang, Haonan and Liu, Jiaxiang and Liu, Yurong and Wijaya, Austin Senna and Zhou, Tianle and Wu, Eden and Chen, Yijia and You, Wanting and Vir, Reya and Veizaga, Daniela Pinto and Fan, Grace and Zhang, Yusen and Freire, Juliana and Wu, Eugene},
+	year = {2026},
+}
